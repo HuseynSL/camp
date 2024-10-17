@@ -1,0 +1,10 @@
+.navbar{
+    height: 90px;
+    background-color: rgb(243, 241, 241);
+    @include flex (flex,space-around,center,row);
+    ul{
+        @include main-flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+}

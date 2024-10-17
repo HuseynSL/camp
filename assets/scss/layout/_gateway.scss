@@ -1,0 +1,41 @@
+#gateway{
+    margin-top: 50px;
+}
+
+.gat-header h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.gat-content{
+    @include main-flex;
+    gap: 40px;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.cards{
+    width: 100%;
+    @include flex ( flex,center, center,row);
+    flex-wrap: wrap;
+
+}
+
+.card{
+    display: flex;
+    position: relative;
+    padding: 10px;
+    width: 30%; 
+    gap: 20px;
+    img{
+        width: 100%;
+        height: auto;
+    }   
+}
+
+.card-text{
+    color: aliceblue;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}

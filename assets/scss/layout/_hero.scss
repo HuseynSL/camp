@@ -1,0 +1,23 @@
+#hero{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/young-rural-travellers-picnic2.jpg);
+    background-position: center;
+}
+.hero-content{
+    width: 63%;
+    @include main-flex;
+    height: 80vh; 
+    
+    .card{
+        width: 400px;
+        height: 60%;
+        background-color: aliceblue;
+        @include main-flex;
+        flex-direction: column;
+        align-items: first baseline;
+        gap: 50px;
+        padding: 20px;
+        h1{
+            font-size: 40px;
+        }
+    }
+}
